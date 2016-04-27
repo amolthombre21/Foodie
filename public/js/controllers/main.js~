@@ -41,15 +41,15 @@ angular.module('foodController', [])
 			$scope.loading = true;
 
 			Food.delete(id)
-				// if successful creation, call our get function to get all the new orders
+				// if successful creation, call our get function to get all the new todos
 				.success(function(data) {
 					$scope.loading = false;
-					$scope.orders = data; // assign our new list of orders
+					$scope.orders = data; // assign our new list of todos
 				});
 		};
 		
 		// Total ==================================================================
-		// Calculate total of an order after clicking Total
+		// delete a todo after checking it
 		$scope.calculateTotal = function(id) {
 			$scope.loading = true;
 

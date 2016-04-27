@@ -24,7 +24,7 @@ module.exports = function (app) {
     });
     
 
-    app.get('/api/total', function (req, res) {			//API for calculating Total
+    app.get('/api/total', function (req, res) {
          FoodOrders.find(function (err, food_orders) {
 	console.log("after in get api");
 	var sum=0;
@@ -41,8 +41,8 @@ module.exports = function (app) {
       		console.log("Prices: "+val); 
     
   	}
-	sum=sum+sum*(7.5/100);// Applying 7.5% tax 
-        res.json(sum); // return total sum
+	sum=sum+sum*(7.5/100);
+        res.json(sum); // return all todos in JSON format
     });
     });
 

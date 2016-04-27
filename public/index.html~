@@ -37,9 +37,7 @@
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 	<style>
 		html 					{ overflow-y:scroll; }
-		body 					{ padding-top:50px; 
-							background:url('http://static.canpages.ca/images/backgrounds/80009000/80009000_1.jpg');	
-							}
+		body 					{ padding-top:50px; }
 		
 	</style>
 

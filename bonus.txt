@@ -1,0 +1,6 @@
+Bonus Phase:
+
+- Used Boorstrap for fancy UI. 
+- Applied a colorful backgrounf image
+- On adding an order, it is placing the item in a nice lookig panel
+- Used focus attribute in input tag to automatically set focus to Food Item

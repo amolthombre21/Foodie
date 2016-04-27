@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-module.exports = mongoose.model('FoodOrders', {//food order model
+module.exports = mongoose.model('FoodOrders', {
     name: {
         type: String,
         default: ''
